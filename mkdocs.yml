@@ -1,0 +1,74 @@
+site_name: Module
+site_author: idyllm
+repo_url: https://github.com/xdylanm/modular-template
+
+nav:
+  - Home: index.md
+  - Design: theory.md
+  - Assembly: assembly.md
+  - Notebook: notebook.ipynb
+  - Schematic: assets/schematic.pdf
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.indexes
+    - navigation.tabs
+  font:
+    text: Radio Canada
+    code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle: 
+        icon: bootstrap-icons-1.13.1/toggle-off
+        name: Switch to dark mode
+      primary: black
+      accent: grey 
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: 
+        icon: bootstrap-icons-1.13.1/toggle-on
+        name: Switch to light mode
+      primary: blue grey
+      accent: indigo
+  icon:
+    logo: bootstrap-icons-1.13.1/boombox
+
+plugins:
+  - search
+  - include-markdown
+  - mkdocs-jupyter
+  - meta
+  - tags
+  
+markdown_extensions: 
+  - pymdownx.arithmatex
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options: 
+        custom_icons:
+          - overrides/.icons
+  
+extra_javascript:
+  - scripts/arithmatex-config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/idyllm
+
+exclude_docs: |
+  **/assets/*.md
+
+copyright: Copyright &copy; 2025 idyllm
