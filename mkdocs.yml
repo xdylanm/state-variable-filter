@@ -1,6 +1,6 @@
-site_name: Module
+site_name: State Variable Filter
 site_author: idyllm
-repo_url: https://github.com/xdylanm/modular-template
+repo_url: https://github.com/xdylanm/state-variable-filter
 
 nav:
   - Home: index.md
