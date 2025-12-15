@@ -20,6 +20,14 @@ The state variable filter is a second order (12dB/oct) filter with low-, high- a
 
 Following the [notes](https://www.eddybergman.com/2024/04/THVCF1statevariablefilter.html) from Eddy Bergman, I've opted to drop the fine-adjust for the cutoff frequency and replace it with a second CV input. 
 
+<div class="grid" markdown>
+
+![SVF PBC Front](./assets/images/svf-1-front-3d.png){: width="240"}
+
+![SVF PBC Back](./assets/images/svf-1-back-3d.png){: width="240"}
+
+</div>
+
 ## Documentation
 
 [Theory](theory.md)

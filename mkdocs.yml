@@ -46,6 +46,7 @@ plugins:
 markdown_extensions: 
   - pymdownx.arithmatex
   - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
