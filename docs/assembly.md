@@ -1,6 +1,33 @@
 # Assembly Guide
 
-Your assembly instructions go here.
+## Populate the PCB
+
+### SMT Components
+
+Use of a stencil and solder paste is highly recommended.
+
+* Schottky diodes D1 & D2
+* Ferrites R31 & R32
+* ICs U1-U3
+* Trim pot RV6
+* Capacitors C1-C14
+* Resistors R1-R22, and
+    * If not using a PTC thermistor (TH1)
+        * populate R23-R26 with 100k
+        * populate TH1 with 2k2
+        * leave R27 unpopulated
+    * Otherwise follow the values on the schematic
+* If adding trimmers RV8 and RV9, populate R33 & R34, otherwise leave unpopulated
+
+### THT Components
+
+* **Backside**
+    * IDC header J9
+    * If adding trimmers, populate RV8 & RV9
+* **Frontside**
+    * Mono jacks J1-J8
+    * RV09 potentiometers RV1-RV5
+    * Capacitors C15 & C16
 
 ## Measurement and Calibration
 
@@ -49,6 +76,6 @@ Plots can be generated using the linked [notebook](./notebook.ipynb).
 
 ## BOM
 
-[Download (.csv)](assets/svf-1.csv)
+[Download (.csv)](assets/bom.csv)
 
 {%include-markdown "assets/bom.md"%}

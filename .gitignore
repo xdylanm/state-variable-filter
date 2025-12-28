@@ -31,7 +31,6 @@ fp-lib-table
 
 # Exported BOM files
 *.xml
-*.csv
 
 # Exported PCB files (Plots)
 hardware/plots/

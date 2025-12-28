@@ -9,7 +9,7 @@
 | D1,D2                               | 2   | B140-E3        | SMA                              |
 | J1,J2,J3,J4,J5,J6,J7,J8             | 8   | WQP-PJ301M-12  | QingPu WQP-PJ301M-12 Vertical    |
 | J9                                  | 1   | IDC Header 10P | IDC-Header 2x05 P2.54mm Vertical |
-| Q1                                  | 1   | MMDT5401       | SOT-363                          |
+| Q1                                  | 1   | DMMT5401       | SOT-26                           |
 | R1,R2,R4,R6,R11,R14,R16,R18,R33,R34 | 10  | 100k           | 0805                             |
 | R3                                  | 1   | 22k            | 0805                             |
 | R5,R10,R19,R20                      | 4   | 1k             | 0805                             |
