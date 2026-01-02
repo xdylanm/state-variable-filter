@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "State Variable Filter")
-		(date "2025-12-28")
+		(date "2026-01-02")
 		(rev "1.1")
 		(company "idyllm")
 		(comment 1 "CC BY-SA 4.0")
@@ -6961,7 +6961,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1M0"
 			(at 185.42 67.3099 0)
 			(effects
 				(font
@@ -8458,22 +8458,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "c802e758-4d87-4b58-98ea-fb114a8f560a")
+			(uuid "c802e758-4d87-4b58-98ea-fb114a8f560b")
 		)
 		(pin "4"
-			(uuid "cc8a34fd-da3c-4533-ab9e-15aa4da40610")
+			(uuid "cc8a34fd-da3c-4533-ab9e-15aa4da40611")
 		)
 		(pin "3"
-			(uuid "80079294-ac96-4646-9e19-c54146d2a540")
+			(uuid "80079294-ac96-4646-9e19-c54146d2a541")
 		)
 		(pin "6"
-			(uuid "9f2dc78f-7ff5-4fd6-b640-c15e1212214b")
+			(uuid "9f2dc78f-7ff5-4fd6-b640-c15e1212214c")
 		)
 		(pin "5"
-			(uuid "614ad0c4-cbce-40ff-b4a6-ddbab450414a")
+			(uuid "614ad0c4-cbce-40ff-b4a6-ddbab450414b")
 		)
 		(pin "2"
-			(uuid "e81c76fe-c23e-4765-8997-ef913f3576de")
+			(uuid "e81c76fe-c23e-4765-8997-ef913f3576df")
 		)
 		(instances
 			(project ""
@@ -8642,7 +8642,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1M0"
 			(at 120.65 64.7699 0)
 			(effects
 				(font

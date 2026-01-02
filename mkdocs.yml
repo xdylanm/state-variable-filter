@@ -4,10 +4,12 @@ repo_url: https://github.com/xdylanm/state-variable-filter
 
 nav:
   - Home: index.md
-  - Design: theory.md
-  - Assembly: assembly.md
-  - Notebook: notebook.ipynb
-  - Schematic: assets/schematic.pdf
+  - Design: 
+    - theory.md
+    - Second Order Filters: notebook.ipynb
+    - DC Gain Analysis: dc_gain_analysis.md
+  - Assembly: assembly.md  
+  - Schematic: assets/svf-1.pdf
 
 theme:
   name: material

@@ -17,3 +17,11 @@
   -webkit-mask-image: var(--md-admonition-icon--repository);
           mask-image: var(--md-admonition-icon--repository);
 }
+
+/* docs/stylesheets/extra.css */
+.render-img-grid {
+  display: flex;
+  justify-content: flex-start; /* left aligned */
+  align-items: center;
+  gap: 12px; /* spacing between items */
+}

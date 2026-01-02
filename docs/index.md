@@ -3,7 +3,7 @@
 The state variable filter is a second order (12dB/oct) filter with low-, high- and band-pass outputs and adjustable resonance. This is a classic filter design that appears in a number of synths, including the Oberheim SEM. 
 
 * Module size: 8HP (40mm)
-* Power: 10mA (+12V); 10mA (-12V)
+* Power: 15mA (+12V); 15mA (-12V)
 
 !!! repository "State Variable Filter"
 
@@ -20,21 +20,13 @@ The state variable filter is a second order (12dB/oct) filter with low-, high- a
 
 Following the [notes](https://www.eddybergman.com/2024/04/THVCF1statevariablefilter.html) from Eddy Bergman, I've opted to drop the fine-adjust for the cutoff frequency and replace it with a second CV input. 
 
-<div class="grid" markdown>
-
-![SVF PBC Front](./assets/images/svf-1-front-3d.png){: width="240"}
-
-![SVF PBC Back](./assets/images/svf-1-back-3d.png){: width="240"}
-
-</div>
-
 ## Documentation
 
-[Theory](theory.md)
+[Design](theory.md)
 
 [Assembly Guide](assembly.md)
 
-[Schematic](assets/schematic.pdf)
+[Schematic](assets/svf-1.pdf)
 
 ## References
 

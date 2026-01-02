@@ -1,5 +1,13 @@
 # Assembly Guide
 
+<div class="render-img-grid" markdown>
+
+![SVF PBC Front](./assets/images/svf-1-front-3d.png){: width="128"}
+
+![SVF PBC Back](./assets/images/svf-1-back-3d.png){: width="128"}
+
+</div>
+
 ## Populate the PCB
 
 ### SMT Components
@@ -11,25 +19,53 @@ Use of a stencil and solder paste is highly recommended.
 * ICs U1-U3
 * Trim pot RV6
 * Capacitors C1-C14
-* Resistors R1-R22, and
+* Resistors R1-R22, R33 & R34 and
     * If not using a PTC thermistor (TH1)
         * populate R23-R26 with 100k
         * populate TH1 with 2k2
         * leave R27 unpopulated
     * Otherwise follow the values on the schematic
-* If adding trimmers RV8 and RV9, populate R33 & R34, otherwise leave unpopulated
 
 ### THT Components
 
+!!! Note
+
+    Before placing trim pots RV8 and RV9, ensure that they are centered to minimize issues during calibration.
+
 * **Backside**
     * IDC header J9
-    * If adding trimmers, populate RV8 & RV9
+    * Populate (already centered) RV8 & RV9
 * **Frontside**
+    * Capacitors C15 & C16
     * Mono jacks J1-J8
     * RV09 potentiometers RV1-RV5
-    * Capacitors C15 & C16
 
 ## Measurement and Calibration
+
+### DC Offsets
+
+For background, see the derivation in the [DC Gain Analysis](./dc_gain_analysis.md) section. The choice of outputs for calibration is important: the HP and BP outputs can be tuned independently, while the LP output depends on both the HP and LP offsets as well as the resonance value. Only use the LP output to verify the calibration. 
+
+#### Setup
+
+* Disconnect any audio or CV inputs
+* Reduce the resonance to minimum.
+* Center the cutoff pot (results are not sensitive to this control).
+* Both trim pots (RV8 and RV9) should be centered. 
+
+#### High Pass
+
+* Monitor the HP output.
+* Adjust RV7 (corresponding OTA U2A) until the DC offset at the HP output is zero.
+
+#### Band Pass
+
+* Monitor the BP output.
+* Adjust RV8 (corresponding OTA U2C) until the DC offset at the BP output is zero.
+
+#### Low Pass
+
+Verify the DC offset at the LP output with the cutoff at maximum. DC offsets below 50mV at the LP output are good. Vary the resonance control (increasing it should decrease the DC offset). There is some higher order interplay between the OTA offsets, so a few passes (HP, BP, LP) might be helpful in practice. Check with an audio signal (e.g. 5Vpp 440Hz) as a final confirmation.
 
 ### Calibrating V/oct
 
