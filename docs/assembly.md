@@ -1,12 +1,6 @@
 # Assembly Guide
 
-<div class="render-img-grid" markdown>
-
-![SVF PBC Front](./assets/images/svf-1-front-3d.png){: width="128"}
-
-![SVF PBC Back](./assets/images/svf-1-back-3d.png){: width="128"}
-
-</div>
+![SVF PCB](./assets/images/svf-1-both-sides-3d.png){: width="256"}
 
 ## Populate the PCB
 

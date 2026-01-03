@@ -519,7 +519,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../plots/",
+      "plot": "../plots/svf-1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
