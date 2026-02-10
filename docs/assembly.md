@@ -38,7 +38,7 @@ Use of a stencil and solder paste is highly recommended.
 
 ### DC Offsets
 
-For background, see the derivation in the [DC Gain Analysis](./dc_gain_analysis.md) section. The choice of outputs for calibration is important: the HP and BP outputs can be tuned independently, while the LP output depends on both the HP and LP offsets as well as the resonance value. Only use the LP output to verify the calibration. 
+This step only requires a multimeter - an oscilloscope can be used but isn't necessary. For background, see the derivation in the [DC Gain Analysis](./dc_gain_analysis.md) section. The choice of outputs for calibration is important: the HP and BP outputs can be tuned independently, while the LP output depends on both the HP and LP offsets as well as the resonance value. Only use the LP output to verify the calibration. 
 
 #### Setup
 
