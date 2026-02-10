@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "State Variable Filter")
-		(date "2026-01-03")
-		(rev "1.1")
+		(date "2026-02-10")
+		(rev "1.2")
 		(company "idyllm")
 		(comment 1 "CC BY-SA 4.0")
 		(comment 2 "References: Thomas Henry, Aaron Lanterman, Eddy Bergman")
@@ -6683,8 +6683,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:DMMT5401")
-		(at 120.65 168.91 0)
-		(mirror y)
+		(at 120.65 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6692,7 +6691,7 @@
 		(dnp no)
 		(uuid "0595ea1c-80a1-4aef-aea1-3b203fc67f6c")
 		(property "Reference" "Q1"
-			(at 115.062 170.434 0)
+			(at 115.062 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +6700,7 @@
 			)
 		)
 		(property "Value" "DMMT5401"
-			(at 115.062 172.974 0)
+			(at 115.062 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6709,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 115.57 166.37 0)
+			(at 115.57 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,6 +8365,7 @@
 	(symbol
 		(lib_id "Transistor_BJT:DMMT5401")
 		(at 97.79 168.91 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8373,7 +8373,7 @@
 		(dnp no)
 		(uuid "3820bbcb-fd03-4595-ac1e-90be4ffac6c8")
 		(property "Reference" "Q1"
-			(at 102.616 163.576 0)
+			(at 102.616 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +8382,7 @@
 			)
 		)
 		(property "Value" "DMMT5401"
-			(at 102.616 166.116 0)
+			(at 102.616 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8391,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 102.87 166.37 0)
+			(at 102.87 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
