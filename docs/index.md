@@ -1,5 +1,8 @@
 # State Variable Filter
 
+![SVF faceplate](./assets/images/svf-faceplate-light.png#only-light){align=right}
+![SVF faceplate](./assets/images/svf-faceplate-dark.png#only-dark){align=right}
+
 The state variable filter is a second order (12dB/oct) filter with low-, high- and band-pass outputs and adjustable resonance. This is a classic filter design that appears in a number of synths, including the Oberheim SEM. 
 
 * Module size: 8HP (40mm)
