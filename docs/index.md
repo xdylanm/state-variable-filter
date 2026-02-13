@@ -28,6 +28,21 @@ Following the [notes](https://www.eddybergman.com/2024/04/THVCF1statevariablefil
 
 [Schematic](assets/svf-1.pdf)
 
+## Changelog
+
+**v1.2**
+
+* Fixed error in Q1 (matched PNP) orientation in schematic and PCB wiring.
+
+**v1.1**
+
+* Fixed wrong part for Q1 (matched PNP), replaced with DMMT5401.
+* Fixed order of trim pots and summing resistors for CV inputs.
+
+**v1.0**
+
+* Initial board.
+
 ## References
 
 1. Hal Chamberlain, *Musical Applications of Microprocessors*, 2nd Ed., Hayden Books, 1985
